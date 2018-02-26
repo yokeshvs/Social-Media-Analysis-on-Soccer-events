@@ -1,0 +1,219 @@
+2017-10-07 22:09:38 [main] Starting up...
+2017-10-07 22:09:40 [main] 1 successful scraping sessions.
+2017-10-07 22:09:40 [main] 0 total User tweets scraped.
+2017-10-07 22:10:40 [main] 2 successful scraping sessions.
+2017-10-07 22:10:40 [main] 0 total User tweets scraped.
+2017-10-07 22:11:40 [main] 3 successful scraping sessions.
+2017-10-07 22:11:40 [main] 6 total User tweets scraped.
+2017-10-07 22:12:40 [main] 4 successful scraping sessions.
+2017-10-07 22:12:40 [main] 11 total User tweets scraped.
+2017-10-07 22:13:40 [main] 5 successful scraping sessions.
+2017-10-07 22:13:40 [main] 14 total User tweets scraped.
+2017-10-07 22:14:40 [main] 6 successful scraping sessions.
+2017-10-07 22:14:40 [main] 17 total User tweets scraped.
+2017-10-07 22:15:40 [main] 7 successful scraping sessions.
+2017-10-07 22:15:40 [main] 21 total User tweets scraped.
+2017-10-07 22:16:40 [main] 8 successful scraping sessions.
+2017-10-07 22:16:40 [main] 26 total User tweets scraped.
+2017-10-07 22:17:40 [main] 9 successful scraping sessions.
+2017-10-07 22:17:40 [main] 30 total User tweets scraped.
+2017-10-07 22:18:40 [main] 10 successful scraping sessions.
+2017-10-07 22:18:40 [main] 34 total User tweets scraped.
+2017-10-07 22:19:40 [main] 11 successful scraping sessions.
+2017-10-07 22:19:40 [main] 37 total User tweets scraped.
+2017-10-07 22:20:40 [main] 12 successful scraping sessions.
+2017-10-07 22:20:40 [main] 52 total User tweets scraped.
+2017-10-07 22:21:40 [main] 13 successful scraping sessions.
+2017-10-07 22:21:40 [main] 53 total User tweets scraped.
+2017-10-07 22:22:40 [main] 14 successful scraping sessions.
+2017-10-07 22:22:40 [main] 56 total User tweets scraped.
+2017-10-07 22:23:40 [main] 15 successful scraping sessions.
+2017-10-07 22:23:40 [main] 65 total User tweets scraped.
+2017-10-07 22:24:40 [main] 16 successful scraping sessions.
+2017-10-07 22:24:40 [main] 72 total User tweets scraped.
+2017-10-07 22:25:40 [main] 17 successful scraping sessions.
+2017-10-07 22:25:40 [main] 77 total User tweets scraped.
+2017-10-07 22:26:40 [main] 18 successful scraping sessions.
+2017-10-07 22:26:40 [main] 79 total User tweets scraped.
+2017-10-07 22:27:40 [main] 19 successful scraping sessions.
+2017-10-07 22:27:40 [main] 91 total User tweets scraped.
+2017-10-07 22:28:40 [main] 20 successful scraping sessions.
+2017-10-07 22:28:40 [main] 91 total User tweets scraped.
+2017-10-07 22:29:40 [main] 21 successful scraping sessions.
+2017-10-07 22:29:40 [main] 93 total User tweets scraped.
+2017-10-07 22:30:40 [main] 22 successful scraping sessions.
+2017-10-07 22:30:40 [main] 98 total User tweets scraped.
+2017-10-07 22:31:40 [main] 23 successful scraping sessions.
+2017-10-07 22:31:40 [main] 103 total User tweets scraped.
+2017-10-07 22:32:40 [main] 24 successful scraping sessions.
+2017-10-07 22:32:40 [main] 109 total User tweets scraped.
+2017-10-07 22:33:40 [main] 25 successful scraping sessions.
+2017-10-07 22:33:40 [main] 111 total User tweets scraped.
+2017-10-07 22:34:40 [main] 26 successful scraping sessions.
+2017-10-07 22:34:40 [main] 116 total User tweets scraped.
+2017-10-07 22:35:40 [main] 27 successful scraping sessions.
+2017-10-07 22:35:40 [main] 119 total User tweets scraped.
+2017-10-07 22:36:40 [main] 28 successful scraping sessions.
+2017-10-07 22:36:40 [main] 124 total User tweets scraped.
+2017-10-07 22:37:40 [main] 29 successful scraping sessions.
+2017-10-07 22:37:40 [main] 126 total User tweets scraped.
+2017-10-07 22:38:40 [main] 30 successful scraping sessions.
+2017-10-07 22:38:40 [main] 128 total User tweets scraped.
+2017-10-07 22:39:40 [main] 31 successful scraping sessions.
+2017-10-07 22:39:40 [main] 133 total User tweets scraped.
+2017-10-07 22:40:40 [main] 32 successful scraping sessions.
+2017-10-07 22:40:40 [main] 134 total User tweets scraped.
+2017-10-07 22:41:40 [main] 33 successful scraping sessions.
+2017-10-07 22:41:40 [main] 139 total User tweets scraped.
+2017-10-07 22:42:40 [main] 34 successful scraping sessions.
+2017-10-07 22:42:40 [main] 152 total User tweets scraped.
+2017-10-07 22:43:40 [main] 35 successful scraping sessions.
+2017-10-07 22:43:40 [main] 158 total User tweets scraped.
+2017-10-07 22:44:40 [main] 36 successful scraping sessions.
+2017-10-07 22:44:40 [main] 160 total User tweets scraped.
+2017-10-07 22:45:40 [main] 37 successful scraping sessions.
+2017-10-07 22:45:40 [main] 168 total User tweets scraped.
+2017-10-07 22:46:40 [main] 38 successful scraping sessions.
+2017-10-07 22:46:40 [main] 177 total User tweets scraped.
+2017-10-07 22:47:40 [main] 39 successful scraping sessions.
+2017-10-07 22:47:40 [main] 186 total User tweets scraped.
+2017-10-07 22:48:40 [main] 40 successful scraping sessions.
+2017-10-07 22:48:40 [main] 190 total User tweets scraped.
+2017-10-07 22:49:40 [main] 41 successful scraping sessions.
+2017-10-07 22:49:40 [main] 195 total User tweets scraped.
+2017-10-07 22:50:40 [main] 42 successful scraping sessions.
+2017-10-07 22:50:40 [main] 201 total User tweets scraped.
+2017-10-07 22:51:40 [main] 43 successful scraping sessions.
+2017-10-07 22:51:40 [main] 206 total User tweets scraped.
+2017-10-07 22:52:40 [main] 44 successful scraping sessions.
+2017-10-07 22:52:40 [main] 212 total User tweets scraped.
+2017-10-07 22:53:40 [main] 45 successful scraping sessions.
+2017-10-07 22:53:40 [main] 217 total User tweets scraped.
+2017-10-07 22:54:40 [main] 46 successful scraping sessions.
+2017-10-07 22:54:40 [main] 223 total User tweets scraped.
+2017-10-07 22:55:40 [main] 47 successful scraping sessions.
+2017-10-07 22:55:40 [main] 229 total User tweets scraped.
+2017-10-07 22:56:40 [main] 48 successful scraping sessions.
+2017-10-07 22:56:40 [main] 231 total User tweets scraped.
+2017-10-07 22:57:40 [main] 49 successful scraping sessions.
+2017-10-07 22:57:40 [main] 236 total User tweets scraped.
+2017-10-07 22:58:40 [main] 50 successful scraping sessions.
+2017-10-07 22:58:40 [main] 239 total User tweets scraped.
+2017-10-07 22:59:40 [main] 51 successful scraping sessions.
+2017-10-07 22:59:40 [main] 244 total User tweets scraped.
+2017-10-07 23:00:40 [main] 52 successful scraping sessions.
+2017-10-07 23:00:40 [main] 247 total User tweets scraped.
+2017-10-07 23:01:40 [main] 53 successful scraping sessions.
+2017-10-07 23:01:40 [main] 252 total User tweets scraped.
+2017-10-07 23:02:40 [main] 54 successful scraping sessions.
+2017-10-07 23:02:40 [main] 260 total User tweets scraped.
+2017-10-07 23:03:40 [main] 55 successful scraping sessions.
+2017-10-07 23:03:40 [main] 265 total User tweets scraped.
+2017-10-07 23:04:40 [main] 56 successful scraping sessions.
+2017-10-07 23:04:40 [main] 267 total User tweets scraped.
+2017-10-07 23:05:40 [main] 57 successful scraping sessions.
+2017-10-07 23:05:40 [main] 270 total User tweets scraped.
+2017-10-07 23:06:40 [main] 58 successful scraping sessions.
+2017-10-07 23:06:40 [main] 274 total User tweets scraped.
+2017-10-07 23:07:40 [main] 59 successful scraping sessions.
+2017-10-07 23:07:40 [main] 281 total User tweets scraped.
+2017-10-07 23:08:40 [main] 60 successful scraping sessions.
+2017-10-07 23:08:40 [main] 284 total User tweets scraped.
+2017-10-07 23:09:40 [main] 61 successful scraping sessions.
+2017-10-07 23:09:40 [main] 287 total User tweets scraped.
+2017-10-07 23:10:40 [main] 62 successful scraping sessions.
+2017-10-07 23:10:40 [main] 289 total User tweets scraped.
+2017-10-07 23:11:40 [main] 63 successful scraping sessions.
+2017-10-07 23:11:40 [main] 293 total User tweets scraped.
+2017-10-07 23:12:40 [main] 64 successful scraping sessions.
+2017-10-07 23:12:40 [main] 297 total User tweets scraped.
+2017-10-07 23:13:40 [main] 65 successful scraping sessions.
+2017-10-07 23:13:40 [main] 301 total User tweets scraped.
+2017-10-07 23:14:40 [main] 66 successful scraping sessions.
+2017-10-07 23:14:40 [main] 304 total User tweets scraped.
+2017-10-07 23:15:40 [main] 67 successful scraping sessions.
+2017-10-07 23:15:40 [main] 308 total User tweets scraped.
+2017-10-07 23:16:40 [main] 68 successful scraping sessions.
+2017-10-07 23:16:40 [main] 312 total User tweets scraped.
+2017-10-07 23:17:40 [main] 69 successful scraping sessions.
+2017-10-07 23:17:40 [main] 317 total User tweets scraped.
+2017-10-07 23:18:40 [main] 70 successful scraping sessions.
+2017-10-07 23:18:40 [main] 320 total User tweets scraped.
+2017-10-07 23:19:40 [main] 71 successful scraping sessions.
+2017-10-07 23:19:40 [main] 325 total User tweets scraped.
+2017-10-07 23:20:40 [main] 72 successful scraping sessions.
+2017-10-07 23:20:40 [main] 332 total User tweets scraped.
+2017-10-07 23:21:40 [main] 73 successful scraping sessions.
+2017-10-07 23:21:40 [main] 340 total User tweets scraped.
+2017-10-07 23:22:40 [main] 74 successful scraping sessions.
+2017-10-07 23:22:40 [main] 344 total User tweets scraped.
+2017-10-07 23:23:40 [main] 75 successful scraping sessions.
+2017-10-07 23:23:40 [main] 357 total User tweets scraped.
+2017-10-07 23:24:40 [main] 76 successful scraping sessions.
+2017-10-07 23:24:40 [main] 363 total User tweets scraped.
+2017-10-07 23:25:40 [main] 77 successful scraping sessions.
+2017-10-07 23:25:40 [main] 368 total User tweets scraped.
+2017-10-07 23:26:40 [main] 78 successful scraping sessions.
+2017-10-07 23:26:40 [main] 372 total User tweets scraped.
+2017-10-07 23:27:40 [main] 79 successful scraping sessions.
+2017-10-07 23:27:40 [main] 376 total User tweets scraped.
+2017-10-07 23:28:40 [main] 80 successful scraping sessions.
+2017-10-07 23:28:40 [main] 376 total User tweets scraped.
+2017-10-07 23:29:40 [main] 81 successful scraping sessions.
+2017-10-07 23:29:40 [main] 385 total User tweets scraped.
+2017-10-07 23:30:40 [main] 82 successful scraping sessions.
+2017-10-07 23:30:40 [main] 387 total User tweets scraped.
+2017-10-07 23:31:40 [main] 83 successful scraping sessions.
+2017-10-07 23:31:40 [main] 391 total User tweets scraped.
+2017-10-07 23:32:40 [main] 84 successful scraping sessions.
+2017-10-07 23:32:40 [main] 394 total User tweets scraped.
+2017-10-07 23:33:40 [main] 85 successful scraping sessions.
+2017-10-07 23:33:40 [main] 401 total User tweets scraped.
+2017-10-07 23:34:40 [main] 86 successful scraping sessions.
+2017-10-07 23:34:40 [main] 405 total User tweets scraped.
+2017-10-07 23:35:40 [main] 87 successful scraping sessions.
+2017-10-07 23:35:40 [main] 413 total User tweets scraped.
+2017-10-07 23:36:40 [main] 88 successful scraping sessions.
+2017-10-07 23:36:40 [main] 422 total User tweets scraped.
+2017-10-07 23:37:40 [main] 89 successful scraping sessions.
+2017-10-07 23:37:40 [main] 427 total User tweets scraped.
+2017-10-07 23:38:40 [main] 90 successful scraping sessions.
+2017-10-07 23:38:40 [main] 433 total User tweets scraped.
+2017-10-07 23:39:40 [main] 91 successful scraping sessions.
+2017-10-07 23:39:40 [main] 440 total User tweets scraped.
+2017-10-07 23:40:40 [main] 92 successful scraping sessions.
+2017-10-07 23:40:40 [main] 447 total User tweets scraped.
+2017-10-07 23:41:40 [main] 93 successful scraping sessions.
+2017-10-07 23:41:40 [main] 455 total User tweets scraped.
+2017-10-07 23:42:40 [main] 94 successful scraping sessions.
+2017-10-07 23:42:40 [main] 458 total User tweets scraped.
+2017-10-07 23:43:40 [main] 95 successful scraping sessions.
+2017-10-07 23:43:40 [main] 460 total User tweets scraped.
+2017-10-07 23:44:40 [main] 96 successful scraping sessions.
+2017-10-07 23:44:40 [main] 469 total User tweets scraped.
+2017-10-07 23:45:40 [main] 97 successful scraping sessions.
+2017-10-07 23:45:40 [main] 472 total User tweets scraped.
+2017-10-07 23:46:40 [main] 98 successful scraping sessions.
+2017-10-07 23:46:40 [main] 483 total User tweets scraped.
+2017-10-07 23:47:40 [main] 99 successful scraping sessions.
+2017-10-07 23:47:40 [main] 488 total User tweets scraped.
+2017-10-07 23:48:40 [main] 100 successful scraping sessions.
+2017-10-07 23:48:40 [main] 491 total User tweets scraped.
+2017-10-07 23:49:40 [main] 101 successful scraping sessions.
+2017-10-07 23:49:40 [main] 497 total User tweets scraped.
+2017-10-07 23:50:40 [main] 102 successful scraping sessions.
+2017-10-07 23:50:40 [main] 499 total User tweets scraped.
+2017-10-07 23:51:40 [main] 103 successful scraping sessions.
+2017-10-07 23:51:40 [main] 500 total User tweets scraped.
+2017-10-07 23:52:40 [main] 104 successful scraping sessions.
+2017-10-07 23:52:40 [main] 502 total User tweets scraped.
+2017-10-07 23:53:40 [main] 105 successful scraping sessions.
+2017-10-07 23:53:40 [main] 510 total User tweets scraped.
+2017-10-07 23:54:40 [main] 106 successful scraping sessions.
+2017-10-07 23:54:40 [main] 516 total User tweets scraped.
+2017-10-07 23:55:40 [main] 107 successful scraping sessions.
+2017-10-07 23:55:40 [main] 522 total User tweets scraped.
+2017-10-07 23:56:40 [main] 108 successful scraping sessions.
+2017-10-07 23:56:40 [main] 528 total User tweets scraped.
+2017-10-07 23:57:40 [main] 109 successful scraping sessions.
+2017-10-07 23:57:40 [main] 534 total User tweets scraped.

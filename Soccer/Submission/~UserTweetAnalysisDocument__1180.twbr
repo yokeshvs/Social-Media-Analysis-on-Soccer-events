@@ -1,0 +1,642 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 10300.17.0728.2252                               -->
+<workbook source-build='10.3.2 (10300.17.0728.2252)' source-platform='win' version='10.3' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Union (usertweetanalysis)' inline='true' name='federated.1sqeq2j0e4rujm16yqr5i0h1wa7m' version='10.3'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='localhost' name='mysql.0fmvkq90gz2v260zwlbas0tafrg7'>
+            <connection class='mysql' dbname='usertweetanalysis' odbc-native-protocol='' one-time-sql='' port='3306' server='localhost' source-charset='' username='yvishw2' />
+          </named-connection>
+        </named-connections>
+        <relation all='true' name='Union' type='union'>
+          <columns>
+            <column datatype='date' date-parse-format='yyyy-MM-dd HH:mm:ss' name='timestamp' />
+          </columns>
+          <relation connection='mysql.0fmvkq90gz2v260zwlbas0tafrg7' name='tweetsuser_10_5_2017' table='[tweetsuser_10_5_2017]' type='table' />
+          <relation connection='mysql.0fmvkq90gz2v260zwlbas0tafrg7' name='tweetsuser_10_6_2017' table='[tweetsuser_10_6_2017]' type='table' />
+          <relation connection='mysql.0fmvkq90gz2v260zwlbas0tafrg7' name='tweetsuser_10_7_2017' table='[tweetsuser_10_7_2017]' type='table' />
+          <relation connection='mysql.0fmvkq90gz2v260zwlbas0tafrg7' name='tweetsuser_10_8_2017' table='[tweetsuser_10_8_2017]' type='table' />
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>textOfTweet</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[textOfTweet]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>textOfTweet</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>userScreenName</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[userScreenName]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>userScreenName</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>followers</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[followers]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>followers</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>isRetweet</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[isRetweet]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>isRetweet</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>statusId</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[statusId]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>statusId</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>userId</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[userId]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>userId</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>timestamp</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[timestamp]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>timestamp</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Table Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Table Name]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>Table Name</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='TweetChecker' datatype='string' name='[Calculation_83035176691220480]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF CONTAINS([textOfTweet],&quot;pique&quot;) THEN &quot;Pique&quot;&#13;&#10;ELSEIF CONTAINS([textOfTweet],&quot;cristiano&quot;) THEN &quot;Cristiano&quot;&#13;&#10;ELSEIF CONTAINS([textOfTweet],&quot;degea&quot;) THEN &quot;De Gea&quot;&#13;&#10;ELSEIF CONTAINS([textOfTweet],&quot;neymar&quot;) THEN &quot;Neymar Jr&quot;&#13;&#10;ELSEIF CONTAINS([textOfTweet],&quot;martial&quot;) THEN &quot;Martial&quot;&#13;&#10;ELSEIF CONTAINS([textOfTweet],&quot;lukaku&quot;) THEN &quot;Lukaku&quot;&#13;&#10;ELSEIF CONTAINS([textOfTweet],&quot;hazard&quot;) THEN &quot;Hazard&quot;&#13;&#10;ELSEIF CONTAINS([textOfTweet],&quot;suarez&quot;) THEN &quot;Suarez&quot;&#13;&#10;ELSEIF CONTAINS([textOfTweet],&quot;kaka&quot;) THEN &quot;Kaka&quot;&#13;&#10;ELSEIF CONTAINS([textOfTweet],&quot;rooney&quot;) THEN &quot;Rooney&quot;&#13;&#10;END' />
+      </column>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='date' datatype-customized='true' name='[timestamp]' role='dimension' type='ordinal' />
+      <column-instance column='[Calculation_83035176691220480]' derivation='None' name='[none:Calculation_83035176691220480:ok]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.607143' measure-ordering='alphabetic' measure-percentage='0.392857' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Calculation_83035176691220480:ok]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Pique&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Kaka&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Rooney&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Lukaku&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Cristiano&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Martial&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Suarez&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Neymar Jr&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;De Gea&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Hazard&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Observation of Pique'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Union (usertweetanalysis)' name='federated.1sqeq2j0e4rujm16yqr5i0h1wa7m' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1sqeq2j0e4rujm16yqr5i0h1wa7m'>
+            <column-instance column='[userId]' derivation='CountD' name='[ctd:userId:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[textOfTweet]' derivation='None' name='[none:textOfTweet:nk]' pivot='key' type='nominal' />
+            <column-instance column='[timestamp]' derivation='Day-Trunc' name='[tdy:timestamp:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[textOfTweet]' role='dimension' type='nominal' />
+            <column datatype='date' datatype-customized='true' name='[timestamp]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[userId]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[none:textOfTweet:nk]'>
+            <groupfilter expression='CONTAINS(LOWER([textOfTweet]), LOWER(&apos;pique&apos;))' function='filter' user:ui-enumeration='inclusive' user:ui-pattern-include-all-when-empty='true' user:ui-pattern_text='pique' user:ui-pattern_type='contains'>
+              <groupfilter function='level-members' level='[none:textOfTweet:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[none:textOfTweet:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[ctd:userId:qk]</rows>
+        <cols>[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[tdy:timestamp:qk]</cols>
+        <annotations>
+          <annotation class='point' id='2' mark-position='1' pullback='0' text-width='465'>
+            <formatted-text>
+              <run fontalignment='1' fontcolor='#606b76'>Day of timestamp: </run>
+              <run bold='true' fontalignment='1' fontcolor='#606b76'>&lt;[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[tdy:timestamp:qk]&gt;</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run bold='true' fontalignment='1' fontcolor='#606b76'>Spain&apos;s international fixture against Albania</run>
+              <run fontalignment='1'>Æ&#10;</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='#2017-10-06 00:10:32.195#'>
+                  <node-reference>
+                    <axis>[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[tdy:timestamp:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='687.07692307692309'>
+                  <node-reference>
+                    <axis>[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[ctd:userId:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='360' y='80' />
+          </annotation>
+        </annotations>
+      </table>
+    </worksheet>
+    <worksheet name='Observation of Ronaldo'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Analyzing Tweet trend for Cristiano</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Union (usertweetanalysis)' name='federated.1sqeq2j0e4rujm16yqr5i0h1wa7m' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1sqeq2j0e4rujm16yqr5i0h1wa7m'>
+            <column-instance column='[userId]' derivation='CountD' name='[ctd:userId:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[textOfTweet]' derivation='None' name='[none:textOfTweet:nk]' pivot='key' type='nominal' />
+            <column-instance column='[timestamp]' derivation='Day-Trunc' name='[tdy:timestamp:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[textOfTweet]' role='dimension' type='nominal' />
+            <column datatype='date' datatype-customized='true' name='[timestamp]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[userId]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[none:textOfTweet:nk]'>
+            <groupfilter expression='CONTAINS(LOWER([textOfTweet]), LOWER(&apos;cristiano&apos;))' function='filter' user:ui-enumeration='inclusive' user:ui-pattern-include-all-when-empty='true' user:ui-pattern_text='cristiano' user:ui-pattern_type='contains'>
+              <groupfilter function='level-members' level='[none:textOfTweet:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[none:textOfTweet:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[ctd:userId:qk]</rows>
+        <cols>[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[tdy:timestamp:qk]</cols>
+        <annotations>
+          <annotation class='point' id='2' mark-position='1' pullback='0' text-width='465'>
+            <formatted-text>
+              <run fontalignment='1' fontcolor='#606b76'>Day of timestamp: </run>
+              <run bold='true' fontalignment='1' fontcolor='#606b76'>&lt;[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[tdy:timestamp:qk]&gt;</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontcolor='#606b76'>Distinct count of userId: </run>
+              <run bold='true' fontalignment='1' fontcolor='#606b76'>&lt;[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[ctd:userId:qk]&gt;</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run bold='true' fontalignment='1' fontcolor='#606b76'>Spain&apos;s international fixture against Albania</run>
+              <run fontalignment='1'>Æ&#10;</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='#2017-10-06 00:10:32.195#'>
+                  <node-reference>
+                    <axis>[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[tdy:timestamp:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='687.07692307692309'>
+                  <node-reference>
+                    <axis>[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[ctd:userId:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='360' y='80' />
+          </annotation>
+          <annotation class='point' id='3' mark-position='1' pullback='0' text-width='412'>
+            <formatted-text>
+              <run fontalignment='1' fontcolor='#787878'>Day of timestamp: </run>
+              <run bold='true' fontalignment='1'>&lt;[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[tdy:timestamp:qk]&gt;</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run bold='true' fontalignment='1'>Ronaldo scored a goal in World cup Qualifier against Andorra</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='#2017-10-07 00:14:02.926#'>
+                  <node-reference>
+                    <axis>[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[tdy:timestamp:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='500.64615384615388'>
+                  <node-reference>
+                    <axis>[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[ctd:userId:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='-457' y='141' />
+          </annotation>
+        </annotations>
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='Total tweet count'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Union (usertweetanalysis)' name='federated.1sqeq2j0e4rujm16yqr5i0h1wa7m' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1sqeq2j0e4rujm16yqr5i0h1wa7m'>
+            <column caption='TweetChecker' datatype='string' name='[Calculation_83035176691220480]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF CONTAINS([textOfTweet],&quot;pique&quot;) THEN &quot;Pique&quot;&#13;&#10;ELSEIF CONTAINS([textOfTweet],&quot;cristiano&quot;) THEN &quot;Cristiano&quot;&#13;&#10;ELSEIF CONTAINS([textOfTweet],&quot;degea&quot;) THEN &quot;De Gea&quot;&#13;&#10;ELSEIF CONTAINS([textOfTweet],&quot;neymar&quot;) THEN &quot;Neymar Jr&quot;&#13;&#10;ELSEIF CONTAINS([textOfTweet],&quot;martial&quot;) THEN &quot;Martial&quot;&#13;&#10;ELSEIF CONTAINS([textOfTweet],&quot;lukaku&quot;) THEN &quot;Lukaku&quot;&#13;&#10;ELSEIF CONTAINS([textOfTweet],&quot;hazard&quot;) THEN &quot;Hazard&quot;&#13;&#10;ELSEIF CONTAINS([textOfTweet],&quot;suarez&quot;) THEN &quot;Suarez&quot;&#13;&#10;ELSEIF CONTAINS([textOfTweet],&quot;kaka&quot;) THEN &quot;Kaka&quot;&#13;&#10;ELSEIF CONTAINS([textOfTweet],&quot;rooney&quot;) THEN &quot;Rooney&quot;&#13;&#10;END' />
+            </column>
+            <column-instance column='[statusId]' derivation='CountD' name='[ctd:statusId:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_83035176691220480]' derivation='None' name='[none:Calculation_83035176691220480:ok]' pivot='key' type='nominal' />
+            <column datatype='string' name='[statusId]' role='dimension' type='nominal' />
+            <column-instance column='[timestamp]' derivation='Day-Trunc' name='[tdy:timestamp:ok]' pivot='key' type='ordinal' />
+            <column datatype='string' name='[textOfTweet]' role='dimension' type='nominal' />
+            <column datatype='date' datatype-customized='true' name='[timestamp]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[none:Calculation_83035176691220480:ok]'>
+            <groupfilter from='&quot;Cristiano&quot;' function='range' level='[none:Calculation_83035176691220480:ok]' to='&quot;Suarez&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[none:Calculation_83035176691220480:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[tdy:timestamp:ok]' value='129' />
+            <format attr='width' field='[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[none:Calculation_83035176691220480:ok]' value='41' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[none:Calculation_83035176691220480:ok]' value='-90' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[none:Calculation_83035176691220480:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f9a655' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[ctd:statusId:qk]</rows>
+        <cols>([federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[tdy:timestamp:ok] / [federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[none:Calculation_83035176691220480:ok])</cols>
+        <annotations>
+          <annotation class='point' id='0' mark-position='1' pullback='0' text-width='377'>
+            <formatted-text>
+              <run bold='true'>Neymar was involved in International fixture</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord cell-offset='0.414634'>
+                  <node-reference>
+                    <fields>
+                      <field>[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[tdy:timestamp:ok]</field>
+                      <field>[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[none:Calculation_83035176691220480:ok]</field>
+                    </fields>
+                    <multibucket>
+                      <bucket>#2017-10-07 00:00:00#</bucket>
+                      <bucket>&quot;Neymar Jr&quot;</bucket>
+                    </multibucket>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='176.87882352941176'>
+                  <node-reference>
+                    <axis>[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[ctd:statusId:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='-39' y='-147' />
+          </annotation>
+          <annotation class='point' id='1' mark-position='1' pullback='0' text-width='335'>
+            <formatted-text>
+              <run bold='true' fontalignment='1'>Pique&apos;s Spain game after catalunya controversy</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord cell-offset='0.463415'>
+                  <node-reference>
+                    <fields>
+                      <field>[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[tdy:timestamp:ok]</field>
+                      <field>[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[none:Calculation_83035176691220480:ok]</field>
+                    </fields>
+                    <multibucket>
+                      <bucket>#2017-10-06 00:00:00#</bucket>
+                      <bucket>&quot;Pique&quot;</bucket>
+                    </multibucket>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='648.86117647058825'>
+                  <node-reference>
+                    <axis>[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[ctd:statusId:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='-243' y='14' />
+          </annotation>
+          <annotation class='point' id='2' mark-position='1' pullback='0' text-width='451'>
+            <formatted-text>
+              <run bold='true'>De Gea was also involved in Spain&apos;s game. Hence the spike</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord cell-offset='0.439024'>
+                  <node-reference>
+                    <fields>
+                      <field>[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[tdy:timestamp:ok]</field>
+                      <field>[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[none:Calculation_83035176691220480:ok]</field>
+                    </fields>
+                    <multibucket>
+                      <bucket>#2017-10-06 00:00:00#</bucket>
+                      <bucket>&quot;De Gea&quot;</bucket>
+                    </multibucket>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='222.70235294117649'>
+                  <node-reference>
+                    <axis>[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[ctd:statusId:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='-75' y='-117' />
+          </annotation>
+          <annotation class='point' id='3' mark-position='1' pullback='0' text-width='285'>
+            <formatted-text>
+              <run bold='true'>For other players, the trend dropped, but for Cristiano, the trend was maintained as he scored winner on the previous day</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord cell-offset='0.682927'>
+                  <node-reference>
+                    <fields>
+                      <field>[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[tdy:timestamp:ok]</field>
+                      <field>[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[none:Calculation_83035176691220480:ok]</field>
+                    </fields>
+                    <multibucket>
+                      <bucket>#2017-10-08 00:00:00#</bucket>
+                      <bucket>&quot;Cristiano&quot;</bucket>
+                    </multibucket>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='688.26941176470586'>
+                  <node-reference>
+                    <axis>[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[ctd:statusId:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='202' y='147' />
+          </annotation>
+        </annotations>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Observation of Pique'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='Observation of Ronaldo'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='Total tweet count'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1sqeq2j0e4rujm16yqr5i0h1wa7m].[none:Calculation_83035176691220480:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='30'>
+            <card type='columns' />
+          </strip>
+          <strip size='30'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+  </windows>
+</workbook>
